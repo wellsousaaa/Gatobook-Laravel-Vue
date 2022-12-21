@@ -1,8 +1,96 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+// // Fonts
+// @import url("https://fonts.googleapis.com/css?family=Nunito");
 
-// Variables
-@import 'variables';
+// // Variables
+// @import "variables";
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+// // Bootstrap
+// @import "~bootstrap/scss/bootstrap";
+
+body {
+    // background-color: #000 !important;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.user-image {
+    box-shadow: 0 0 1rem rgba(192, 207, 255, 0.5);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 7px;
+}
+
+.form-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.form-container form {
+    display: flex;
+    align-items: flex-start;
+
+    flex-direction: column;
+
+    width: 90vw;
+    margin: auto;
+
+    .input-container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    button {
+        align-self: flex-end;
+        margin-top: 0.5rem;
+        width: 140px;
+        height: 35px;
+        background-color: #0058f8;
+        border-radius: 0.3rem;
+        border: 1px solid #081d44;
+        color: #fff;
+        font-size: 0.8rem;
+    }
+
+    textarea {
+        border-radius: 0.5rem;
+        border: 1px solid gray;
+        padding: 1rem;
+
+        height: 50px;
+
+        min-width: 73%;
+
+        font-family: inherit;
+    }
+}
+
+.post-header,
+.post-footer {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    padding: 7px 10px;
+}
+
+.post-footer {
+    justify-content: space-between;
+    font-size: 1.5rem;
+    padding: 7px 25px;
+}
+
+.post-container {
+    border-radius: 0.5rem;
+    border: 1px solid rgba(87, 83, 105, 0.5);
+    margin: 25px auto;
+    min-width: 50vw;
+    width: 500px;
+    max-width: 90vw;
+
+    .post-image {
+        width: 100%;
+        max-height: 90vh;
+        object-fit: cover;
+    }
+}
