@@ -9,6 +9,7 @@ import { routes } from "./routes";
 import "vue-js-modal/dist/styles.css";
 import { OhVueIcon, addIcons } from "oh-vue-icons";
 import { BiHeart, BiSend, IoLogoOctocat } from "oh-vue-icons/icons";
+import VueAos from "vue-aos";
 
 addIcons(BiHeart, BiSend, IoLogoOctocat);
 
@@ -21,6 +22,7 @@ const router = VueRouter.createRouter({
 });
 
 app.use(VueAxios, axios);
+app.use(VueAos);
 
 app.component("v-icon", OhVueIcon);
 

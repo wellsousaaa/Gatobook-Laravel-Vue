@@ -5684,6 +5684,11 @@ vendors@^1.0.0:
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.4.tgz#e2b800a53e7a29b93506c3cf41100d16c4c4ad8e"
   integrity sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==
 
+vue-aos@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/vue-aos/-/vue-aos-3.1.0.tgz#17a9187c3e3e4d1735fd40f31c9a8b0e443dc6e1"
+  integrity sha512-FzuN8p/4ewJoPDjq3/6IykOdXQtGVWXP+bcOzBWxVcQnawE2VjZLS8TdHqpd80PVVvs1qCTvjkfn5mug5xCQ4Q==
+
 vue-axios@^3.5.2:
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/vue-axios/-/vue-axios-3.5.2.tgz#28637524cca550a9e97197e85a41930ec63604d5"
@@ -5705,6 +5710,11 @@ vue-js-modal@^2.0.1:
   integrity sha512-5FUwsH2zoxRKX4a7wkFAqX0eITCcIMunJDEfIxzHs2bHw9o20+Iqm+uQvBcg1jkzyo1+tVgThR/7NGU8djbD8Q==
   dependencies:
     resize-observer-polyfill "^1.5.1"
+
+vue-load-image@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/vue-load-image/-/vue-load-image-0.2.0.tgz#e82fdd92e24569459f3f32c1e10de5de4a3b3ec2"
+  integrity sha512-Y9xj4bNM3wCZFowFABEaC9pJVVhS0L8k9Ui4SbFEdYxnY/DqP4yi3vOsNENj698Zy6klOXHjJ9yEtP/z1JUOEw==
 
 vue-loader@^17.0.1:
   version "17.0.1"

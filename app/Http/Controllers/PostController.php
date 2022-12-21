@@ -16,10 +16,9 @@ class PostController extends Controller
     public function store(Request $request)
     {
         $post = new Post([
-            'title' => "SLA",
+            'username' => request('username'),
             'body' => request('body'),
             'image' => request('image'),
-            'user_id' => 1
         ]);
         $post->save();
 

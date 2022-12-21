@@ -1,5 +1,5 @@
 import Feed from "./components/Feed.vue";
-import Profile from "./components/Profile.vue";
+import Login from "./components/Login.vue";
 
 export const routes = [
     {
@@ -7,7 +7,7 @@ export const routes = [
         component: Feed,
     },
     {
-        path: "/profile",
-        component: Profile,
+        path: "/login",
+        component: Login,
     },
 ];
